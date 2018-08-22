@@ -1,0 +1,16 @@
+{
+	"token":"nch4KQ05CgIcZF4g",
+	"database":"agua",
+	"data":{
+		"description":"Description",
+		"aminame":"test1",
+		"username":"guest",
+		"status":"Removed AMI test1: (ami-d1c42db8)",
+		"amiid":"ami-d1c42db8",
+		"amitype":"EBS"
+	},
+	"callback":"handleRemoveAmi",
+	"username":"guest",
+	"sendtype":"response",
+	"sourceid":"doh_Agua_0"
+}

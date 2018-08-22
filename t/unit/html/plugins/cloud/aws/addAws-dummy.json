@@ -1,0 +1,9 @@
+{
+	"data":{
+		"amazonuserid"		    :	"000000000000",
+		"awsaccesskeyid"		:	"DUMMYDUMMYDUMMYDUMMY",
+		"awssecretaccesskey" 	:	"DUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMY",
+		"ec2privatekey"	        :	"---- PUBLIC CERTIFICATE xxxxxXXXXXXXXXXXXXXXXXXXXxxxxx -----",
+		"ec2publiccert"	        :	"---- PUBLIC CERTIFICATE xxxxxXXXXXXXXXXXXXXXXXXXXxxxxx -----"
+	}
+}

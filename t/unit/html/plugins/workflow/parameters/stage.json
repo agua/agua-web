@@ -1,0 +1,16 @@
+{
+	"owner" : "admin",
+	"username" : "testuser",
+	"status" : "completed",
+	"project" : "Project1",
+	"workflow" : "Workflow1",
+	"workflownumber" : "1",
+	"name" : "bowtieIndex",
+	"number" : "1",
+	"type" : "aligner",
+	"location" : "apps/expression/bowtieIndex.pl",
+	"executor" : "/usr/bin/perl",
+	"started" : "2011-05-12 11:03:08",
+	"now" : "2011-05-13 01:45:58",
+	"completed" : "2011-05-12 12:14:19"
+}

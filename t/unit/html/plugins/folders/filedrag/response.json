@@ -1,0 +1,78 @@
+{
+	"sourceid"	:	"",
+	"username"	:	"testuser",
+	"sendtype"	:	"response",
+	"callback"	:	"",
+	"database"	:	"aguatest",
+	"data"		:	{
+		"total"	:	4,
+		"path"	:	"Workflow1",
+		"status":	"ok",
+		"name"	:	"Workflow1",
+		"items"	:	[
+			{
+				"path":"/home/guest/agua/Project1/Workflow1/script",
+				"directory":"true",
+				"name":"script",
+				"modified":"1427082569",
+				"parentPath":"/home/guest/agua/Project1/Workflow1",
+				"size":"4096",
+				"parentDir":"/home/guest/agua/Project1/Workflow1",
+				"children"	:[
+					"1-bowtieIndex.sh",
+					"1-sleep.sh",
+					"2-sleep.sh",
+					"3-TOPHAT.sh",
+					"3-novoIndex.sh",
+					"3-sleep.sh",
+					"5-sleep.sh",
+					"7-sleep.sh",
+					"8-novoIndex.sh"
+				]
+			},
+			{
+				"name":"scripts",
+				"path":"/home/guest/agua/Project1/Workflow1/scripts",
+				"children":[],
+				"directory":"true",
+				"modified":"1426859021",
+				"parentPath":"/home/guest/agua/Project1/Workflow1",
+				"size":"4096",
+				"parentDir":"/home/guest/agua/Project1/Workflow1"
+			},
+			{
+				"directory":"true",
+				"size":"4096",
+				"parentDir":"/home/guest/agua/Project1/Workflow1",
+				"modified":"1427082575",
+				"parentPath":"/home/guest/agua/Project1/Workflow1",
+				"name":"stdout",
+				"path":"/home/guest/agua/Project1/Workflow1/stdout",
+				"children"	:[
+					"1-sleep.exit",
+					"1-sleep.stderr",
+					"1-sleep.stdout",
+					"1-sleep.usage",
+					"2-sleep.exit",
+					"2-sleep.stderr",
+					"2-sleep.stdout",
+					"2-sleep.usage",
+					"3-sleep.exit",
+					"3-sleep.stderr",
+					"3-sleep.stdout",
+					"3-sleep.usage"
+				]
+			},
+			{
+				"parentDir":"/home/guest/agua/Project1/Workflow1",
+				"size":"4096",
+				"modified":"1426854900",
+				"parentPath":"/home/guest/agua/Project1/Workflow1",
+				"directory":"true",
+				"path":"/home/guest/agua/Project1/Workflow1/temp",
+				"name":"temp",
+				"children":[]
+			}
+		]
+	}
+}

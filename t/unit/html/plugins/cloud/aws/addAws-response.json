@@ -1,0 +1,15 @@
+{
+	"data":{
+		"amazonuserid"		    :	"012345678912",
+		"awsaccesskeyid"		:	"ABCDEFGHIJKLMNOPQRST",
+		"awssecretaccesskey" 	:	"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMN",
+		"ec2privatekey"	        :	"---- PUBLIC CERTIFICATE xxxxxXXXXXXXXXXXXXXXXXXXXxxxxx -----",
+		"ec2publiccert"	        :	"---- PUBLIC CERTIFICATE xxxxxXXXXXXXXXXXXXXXXXXXXxxxxx -----"
+	},
+	"callback":"handleAddAws",
+	"sourceid":"uniqName_6_0",
+	"username":"guest",
+	"sendtype":"response",
+	"token":"nch4KQ05CgIcZF4g",
+	"database":"agua"
+}

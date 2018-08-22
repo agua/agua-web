@@ -1,0 +1,32 @@
+{
+    "username":"testuser",
+    "sessionid":"0000000000.0000.000",
+    "database":"testdatabase",
+    "mode":"insertStage",
+    "module":"Agua::Workflow",
+    "data":{
+        "linkurl":"",
+        "username":"testuser",
+        "localonly":"0",
+        "type":"converter",
+        "version":"0.6.0",
+        "owner":"agua",
+        "description":"Run bowtie-build to convert FASTA files into *ebwt indexed files",
+        "name":"bowtieIndex",
+        "installdir":"/a/apps/bioapps",
+        "package":"bioapps",
+        "url":"http://www.aguadev.org/confluence/display/howto/Bioapps+API",
+        "location":"bin/converters/bowtieIndex.pl",
+        "notes":"",
+        "executor":"/usr/bin/perl",
+        "appname":"bowtieIndex",
+        "appnumber":"1",
+        "number":"1",
+        "cluster":"",
+        "project":"Project1",
+        "workflow":"Workflow1",
+        "workflownumber":"1"
+    },
+    "token":"nKbRhIx5LmKS0Seh",
+    "sendtype":"request"
+}

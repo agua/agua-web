@@ -1,0 +1,29 @@
+var express = require('express');
+var https = require('https');
+var http = require('http');
+var fs = require('fs');
+
+var keydir = "/etc/share/agua/ssl";
+console.log("keydir: " + keydir);
+
+// This line is from the Node.js HTTPS documentation.
+var options = {
+  key: fs.readFileSync(keydir + '/server.key'),
+  cert: fs.readFileSync(keydir + '/server.crt')
+};
+
+// Create a service (the app object is just a callback).
+var app = express();
+
+/* serves all the static files */
+app.get(/^(.+)$/, function(req, res){ 
+	console.log('static file request : ' + req.params);
+	res.sendfile( "/var/www/html" + req.params[0]); 
+});
+
+// Create an HTTP service.
+//http.createServer(app).listen(80);
+// Create an HTTPS service identical to the HTTP service.
+console.log('Creating server static file request : ' + req.params);
+https.createServer(options, app).listen(443);
+

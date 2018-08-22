@@ -1,0 +1,43 @@
+{
+	"sourceid":"uniqName_6_38",
+	"username":"guest",
+	"database":"agua",
+	"data":
+	{
+		"history":[
+			[
+				{
+					"workflow":"Workflow1",
+					"status":"",
+					"number":"1",
+					"started":"0000-00-00 00:00:00",
+					"project":"Project1",
+					"name":"sleep",
+					"completed":"0000-00-00 00:00:00"},{"started":"0000-00-00 00:00:00",
+					"number":"2",
+					"status":"",
+					"workflow":"Workflow1",
+					"completed":"0000-00-00 00:00:00",
+					"name":"sleep",
+					"project":"Project1"},{"workflow":"Workflow1",
+					"status":"",
+					"number":"3",
+					"started":"0000-00-00 00:00:00",
+					"project":"Project1",
+					"name":"TOPHAT",
+					"completed":"0000-00-00 00:00:00"},{"completed":"0000-00-00 00:00:00",
+					"name":"TOPHAT",
+					"project":"Project1",
+					"number":"4",
+					"started":"0000-00-00 00:00:00",
+					"workflow":"Workflow1",
+					"status":""
+				}
+			]
+		],
+		"status":"Retrieved history data"
+	},
+	"token":"EcYruqS1wAal73js",
+	"callback":"handleHistory",
+	"sendtype":"response"
+}

@@ -1,0 +1,11 @@
+{
+   "hub" : {
+      "username"    :	 "testuser",
+      "login"       :	 "testuser",
+      "token"       :	 "0123456789012345678901234567890123456789"
+   },
+   "aws" : {
+	  "ec2privatekey": "----EC2 PRIVATE KEY----\nxxxXXXXXXXXXXXXXXXXXXXXXXX\n"
+   }
+}
+

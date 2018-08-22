@@ -1,0 +1,14 @@
+{
+	"data":{
+		"login"				:	"mylogin",
+		"hubtype"			:	"github",
+		"token" 			:	"0000000000111111111100000000001111111111",
+		"publiccert"	:	"---- PUBLIC CERTIFICATE xxxxxXXXXXXXXX000000XXXXXXXXXXXxxxxx -----"
+	},
+	"callback":"handleAddHubCertificate",
+	"sourceid":"doh_Agua_0",
+	"username":"guest",
+	"sendtype":"response",
+	"token":"nch4KQ05CgIcZF4g",
+	"database":"agua"
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<style type="text/css">
+	@import "../../../../../dojo/dojo/resources/dojo.css";
+	@import "../../../../../dojo/dijit/themes/dijit.css";
+	@import "../../../../../dojo/dijit/themes/soria/soria.css";
+	@import "../../../../../dojo/dijit/themes/tundra/tundra.css";
+</style>
+
+<title>t.plugins.workflow.workflows.test</title>
+
+<script type="text/javascript">
+
+// GLOBAL VARIABLES
+var Agua = {};
+var Data = {};
+
+var dojoConfig = {
+	isDebug: true,
+	locale: "en-us",
+	//extraLocale: ['ja-jp'],
+	debugAtAllCosts: true,
+	useCommentedJson: true,
+	parseOnLoad: true,
+	async : 0,
+	insertAbsMids: false,
+	has : {
+		"dojo-undef-api": 1
+	},
+
+	packages: [
+		{
+			name: "t",
+			location: "../../t"
+		},
+		{
+			name: "plugins",
+			location: "../../plugins"
+		}
+	]
+};
+
+</script>
+
+<link rel="stylesheet" id="themeStyles" href="../../../../../dojo/dijit/themes/claro/claro.css">
+<link rel="stylesheet" href="../../../../../dojo/dojox/layout/tests/_expando.css">	
+
+<script type="text/javascript"
+	src="../../../../../dojo/dojo/dojo.js"
+>
+</script>
+
+</head>
+
+<body class="claro" style="overflow: scroll !important;">
+
+	<div
+		data-dojo-attach-point="controls"
+		class="controls"
+		style="min-height: 100% !important; min-width: 100% !important;"		
+	>
+
+		<div
+            data-dojo-attach-point="toolbar"
+            data-dojo-type="dijit.Toolbar"
+            class="toolbar"
+        >
+        </div>
+
+		<div
+			data-dojo-attach-point="tabs"
+			data-dojo-type="dijit.layout.TabContainer"
+			class="tabs"
+			useSlider="false"
+			tabPosition="top"
+			tabStrip="false"
+			style="position: relative; top: 0px; left: 0px; height: 100% !important; min-height: 850px !important; width: 800px !important; min-width: 100% !important; right: auto; bottom: auto;"
+		>
+			<div id="attachPoint" >
+				
+				
+				
+				
+			</div>
+
+		</div>
+	
+	</div>
+	
+	<div data-dojo-attach-point="fileManagerNode"></div>
+
+	
+	<script type="text/javascript" src="./runTests.js"></script>
+	
+</body>
+</html>
